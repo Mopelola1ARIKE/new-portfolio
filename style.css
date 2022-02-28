@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+body{
+    height: 100vh;
+}
+.head{
+    background-color: rgb(208, 231, 235);
+    padding: 0px 200px;
+}
+.head img{
+    display: block;
+}
+.head h1{
+    color: rgb(106, 203, 241);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.head p{
+    font-size: 1.3rem;
+    color: rgb(106, 203, 241);
+    padding-bottom: 20px;
+}
+.about{
+    padding: 0px 250px;
+}
+.about h3{
+    color: rgb(106, 203, 241);
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 20pt;
+}
+.about p{
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.portfolio{
+    background-color: gainsboro;
+    padding: 0px 200px;
+    display: flexbox;
+    flex-wrap: wrap;
+}
+.portfolio img{
+    width: 300px;
+    height: 300px;
+}
+.contact{
+    padding: 0px 200px;
+}
+.footer{
+    background-color: rgb(106, 203, 241);
+    padding: 20px 200px;
+}
+.skill1{
+    display: flex;
+    flex-direction: row;
+    border-top: 10px solid black;
+}
+.skill2{
+    display: flex;
+    flex-direction: row;
+    border-top: 10px solid black;
+}
+hr{
+    border: 1px dotted gainsboro;
+    margin: 30px 400px;
+}
